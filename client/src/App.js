@@ -45,7 +45,7 @@ function App() {
               key={item._id}
               text={item.text}
               updateMode={() => updateMode(item._id, item.text)}
-              deleteToDo={() => deleteToDO(item.id, setToDo)}
+              deleteToDo={() => deleteToDO(item._id, setToDo)}
             />
           ))}
         </div>
